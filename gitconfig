@@ -1,0 +1,40 @@
+[user]
+    name = Arvind Singh
+    email = arvind.singh@payu.in
+
+[color]
+    ui = auto
+
+[core]
+    editor = vim
+    eol = lf
+    compression = 9
+
+[gpg]
+    program = gpg2
+
+[push]
+    default = simple
+    followTags = true
+    gpgSign = if-asked
+
+[commit]
+    #gpgSign = true
+
+[merge]
+    tool = kdiff3
+    ff = only
+
+[branch]
+    autoSetupRebase = always
+
+[column]
+    ui = auto
+
+[pull]
+    rebase = true
+
+[rebase]
+    stat = true
+    #autoStash = true
+    missingCommitsCheck = error
